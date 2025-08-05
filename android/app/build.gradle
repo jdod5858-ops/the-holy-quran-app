@@ -37,12 +37,15 @@ android {
 
     buildTypes {
         release {
-            profile {
-                matchingFallbacks = ['debug', 'release']
-            }
             // Signing config removed for open source build
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+        profile {
+            matchingFallbacks = ['debug', 'release']
         }
     }
 }

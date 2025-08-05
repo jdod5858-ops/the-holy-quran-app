@@ -1,18 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.voxin.hasanati">
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:name="${applicationName}"
         android:label="حسناتي"
-        android:icon="@mipmap/launcher_icon">
-              <uses-library
-        android:name="org.apache.http.legacy"
-        android:required="false" />
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
