@@ -16,6 +16,7 @@ class HasanatiApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'حسناتي - التطبيق الإسلامي'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
