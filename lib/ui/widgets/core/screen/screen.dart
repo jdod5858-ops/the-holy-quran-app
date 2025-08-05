@@ -1,6 +1,6 @@
-import 'package:al_quran/configs/app.dart';
-import 'package:al_quran/providers/app_provider.dart';
-import 'package:al_quran/ui/widgets/headless/focus_handler.dart';
+import 'package:hasanati/configs/app.dart';
+import 'package:hasanati/providers/app_provider.dart';
+import 'package:hasanati/ui/widgets/headless/focus_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';

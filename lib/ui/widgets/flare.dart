@@ -1,4 +1,4 @@
-import 'package:al_quran/ui/animations/entrance_fader.dart';
+import 'package:hasanati/ui/animations/entrance_fader.dart';
 import 'package:flutter/material.dart';
 
 class Flare extends StatelessWidget {

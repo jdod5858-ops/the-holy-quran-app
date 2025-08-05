@@ -1,8 +1,8 @@
-import 'package:al_quran/blocs/bookmarks/bloc.dart';
-import 'package:al_quran/blocs/chapter/bloc.dart';
-import 'package:al_quran/blocs/juz/bloc.dart';
-import 'package:al_quran_api/al_quran_api.dart';
-import 'package:al_quran_repo/al_quran_repo.dart';
+import 'package:hasanati/blocs/bookmarks/bloc.dart';
+import 'package:hasanati/blocs/chapter/bloc.dart';
+import 'package:hasanati/blocs/juz/bloc.dart';
+import 'package:hasanati_api/al_quran_api.dart';
+import 'package:hasanati_repo/al_quran_repo.dart';
 import 'package:get_it/get_it.dart';
 
 final sl = GetIt.instance;

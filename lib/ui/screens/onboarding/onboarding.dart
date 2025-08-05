@@ -1,9 +1,9 @@
-import 'package:al_quran/router/routes.dart';
-import 'package:al_quran/configs/app.dart';
-import 'package:al_quran/configs/configs.dart';
-import 'package:al_quran/providers/onboarding_provider.dart';
-import 'package:al_quran/ui/widgets/core/screen/screen.dart';
-import 'package:al_quran/static/assets.dart';
+import 'package:hasanati/router/routes.dart';
+import 'package:hasanati/configs/app.dart';
+import 'package:hasanati/configs/configs.dart';
+import 'package:hasanati/providers/onboarding_provider.dart';
+import 'package:hasanati/ui/widgets/core/screen/screen.dart';
+import 'package:hasanati/static/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

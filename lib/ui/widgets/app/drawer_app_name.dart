@@ -1,7 +1,7 @@
-import 'package:al_quran/static/assets.dart';
+import 'package:hasanati/static/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:al_quran/providers/app_provider.dart';
+import 'package:hasanati/providers/app_provider.dart';
 
 class DrawerAppName extends StatelessWidget {
   const DrawerAppName({super.key});

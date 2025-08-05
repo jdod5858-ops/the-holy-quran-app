@@ -1,5 +1,5 @@
-name: al_quran
-description: Flutter App for the holy book of Qur'an.
+name: hasanati
+description: تطبيق حسناتي - تطبيق شامل للقرآن الكريم والأذكار والأدعية
 publish_to: none
 
 version: 2.5.6+11
@@ -53,6 +53,35 @@ dependencies:
   # app info
   package_info_plus: 8.2.1
   collection: 1.18.0
+  
+  # localization
+  flutter_localizations:
+    sdk: flutter
+  
+  # prayer times and qibla
+  geolocator: ^10.1.0
+  permission_handler: ^11.3.1
+  adhan: ^2.0.0
+  
+  # audio player
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+  
+  # notifications
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.2
+  
+  # hijri calendar
+  hijri: ^3.0.0
+  
+  # compass for qibla
+  flutter_compass: ^0.7.0
+  
+  # background tasks
+  workmanager: ^0.5.2
+  
+  # audio background support
+  just_audio_background: ^0.0.1-beta.11
 
 dev_dependencies:
   flutter_test:
@@ -87,6 +116,7 @@ flutter_icons:
 # The following section is specific to Flutter.
 flutter:
   uses-material-design: true
+  generate: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -94,6 +124,10 @@ flutter:
     - assets/logos/
     - assets/intro/
     - assets/images/
+    - assets/audio/
+    - assets/data/
+    - assets/duas/
+    - assets/names/
 
   fonts:
     - family: Poppins

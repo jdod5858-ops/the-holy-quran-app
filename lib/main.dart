@@ -1,4 +1,6 @@
-import 'package:al_quran/services/locator.dart';
+import 'package:hasanati/services/locator.dart';
+import 'package:hasanati/services/notification_service.dart';
+import 'package:hasanati/services/audio_service.dart';
 import 'package:al_quran_api/al_quran_api.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
@@ -24,6 +26,10 @@ void main() async {
 
   // locator
   await initServiceLocator();
+
+  // Initialize services
+  await NotificationService.initialize();
+  await AudioService.initialize();
 
   runApp(const MyApp());
 }

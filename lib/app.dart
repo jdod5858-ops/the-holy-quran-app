@@ -1,9 +1,11 @@
-import 'package:al_quran/configs/app.dart';
-import 'package:al_quran/services/locator.dart';
+import 'package:hasanati/configs/app.dart';
+import 'package:hasanati/services/locator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'router/routes.dart';
 import 'router/router.dart';
@@ -56,12 +58,23 @@ class MyAppState extends State<MyApp> {
       child: Consumer<AppProvider>(
         builder: (context, state, child) {
           return MaterialApp(
-            title: 'They Holy Qur\'an',
+            title: 'حسناتي',
             navigatorKey: navigator,
             debugShowCheckedModeBanner: false,
             theme: theme.themeLight,
             darkTheme: theme.themeDark,
             themeMode: state.themeMode,
+            locale: state.locale,
+            localizationsDelegates: const [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: const [
+              Locale('ar', ''),
+              Locale('en', ''),
+            ],
             initialRoute: AppRoutes.splash,
             routes: appRoutes,
             builder: (context, child) {

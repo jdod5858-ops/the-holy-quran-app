@@ -1,17 +1,17 @@
-import 'package:al_quran/blocs/bookmarks/bloc.dart';
-import 'package:al_quran/blocs/chapter/bloc.dart';
-import 'package:al_quran/blocs/juz/bloc.dart';
-import 'package:al_quran/services/locator.dart';
-import 'package:al_quran/ui/animations/bottom_animation.dart';
-import 'package:al_quran/router/routes.dart';
-import 'package:al_quran/configs/configs.dart';
-import 'package:al_quran/ui/widgets/core/screen/screen.dart';
-import 'package:al_quran/static/assets.dart';
+import 'package:hasanati/blocs/bookmarks/bloc.dart';
+import 'package:hasanati/blocs/chapter/bloc.dart';
+import 'package:hasanati/blocs/juz/bloc.dart';
+import 'package:hasanati/services/locator.dart';
+import 'package:hasanati/ui/animations/bottom_animation.dart';
+import 'package:hasanati/router/routes.dart';
+import 'package:hasanati/configs/configs.dart';
+import 'package:hasanati/ui/widgets/core/screen/screen.dart';
+import 'package:hasanati/static/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:al_quran/configs/app.dart';
-import 'package:al_quran/providers/app_provider.dart';
+import 'package:hasanati/configs/app.dart';
+import 'package:hasanati/providers/app_provider.dart';
 import 'package:shimmer/shimmer.dart';
 
 class SplashScreen extends StatefulWidget {

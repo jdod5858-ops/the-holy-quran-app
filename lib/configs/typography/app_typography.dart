@@ -1,4 +1,4 @@
-import 'package:al_quran/configs/configs.dart';
+import 'package:hasanati/configs/configs.dart';
 import 'package:flutter/material.dart';
 
 class AppText {

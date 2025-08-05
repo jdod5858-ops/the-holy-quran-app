@@ -1,4 +1,4 @@
-import 'package:al_quran/configs/app.dart';
+import 'package:hasanati/configs/app.dart';
 import 'package:flutter/material.dart';
 
 class ScrollColumnExpandable extends StatelessWidget {

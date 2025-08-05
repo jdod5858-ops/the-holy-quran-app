@@ -1,5 +1,5 @@
-import 'package:al_quran/configs/space/app_dimensions.dart';
-import 'package:al_quran/static/assets.dart';
+import 'package:hasanati/configs/space/app_dimensions.dart';
+import 'package:hasanati/static/assets.dart';
 import 'package:flutter/material.dart';
 
 class Calligraphy extends StatelessWidget {

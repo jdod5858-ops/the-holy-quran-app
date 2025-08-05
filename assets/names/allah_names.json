@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "الله",
+    "transliteration": "Allah",
+    "meaning_ar": "الاسم الأعظم الذي تفرد به الحق سبحانه وتعالى وهو أصل الأسماء جميعها",
+    "meaning_en": "The Greatest Name that belongs uniquely to Allah and is the source of all other names"
+  },
+  {
+    "id": 2,
+    "name": "الرحمن",
+    "transliteration": "Ar-Rahman",
+    "meaning_ar": "ذو الرحمة الواسعة التي وسعت كل شيء",
+    "meaning_en": "The Most Merciful whose mercy encompasses all things"
+  },
+  {
+    "id": 3,
+    "name": "الرحيم",
+    "transliteration": "Ar-Raheem",
+    "meaning_ar": "ذو الرحمة الواصلة إلى عباده المؤمنين",
+    "meaning_en": "The Most Compassionate whose mercy reaches His believing servants"
+  },
+  {
+    "id": 4,
+    "name": "الملك",
+    "transliteration": "Al-Malik",
+    "meaning_ar": "المالك لجميع الأشياء المتصرف فيها بلا منازع",
+    "meaning_en": "The King who owns all things and controls them without dispute"
+  },
+  {
+    "id": 5,
+    "name": "القدوس",
+    "transliteration": "Al-Quddus",
+    "meaning_ar": "المنزه عن العيوب والنقائص",
+    "meaning_en": "The Holy One who is free from all defects and imperfections"
+  },
+  {
+    "id": 6,
+    "name": "السلام",
+    "transliteration": "As-Salaam",
+    "meaning_ar": "السالم من جميع العيوب والنقائص",
+    "meaning_en": "The Source of Peace who is free from all flaws and defects"
+  },
+  {
+    "id": 7,
+    "name": "المؤمن",
+    "transliteration": "Al-Mu'min",
+    "meaning_ar": "المصدق لرسله بإظهار المعجزات عليهم",
+    "meaning_en": "The Believer who confirms His messengers by showing miracles through them"
+  },
+  {
+    "id": 8,
+    "name": "المهيمن",
+    "transliteration": "Al-Muhaymin",
+    "meaning_ar": "المسيطر على خلقه بالقدرة والعلم",
+    "meaning_en": "The Guardian who dominates His creation with power and knowledge"
+  },
+  {
+    "id": 9,
+    "name": "العزيز",
+    "transliteration": "Al-Azeez",
+    "meaning_ar": "الغالب الذي لا يُغلب",
+    "meaning_en": "The Mighty One who cannot be defeated"
+  },
+  {
+    "id": 10,
+    "name": "الجبار",
+    "transliteration": "Al-Jabbar",
+    "meaning_ar": "الذي يجبر الخلق على ما يريد",
+    "meaning_en": "The Compeller who enforces His will upon creation"
+  },
+  {
+    "id": 11,
+    "name": "المتكبر",
+    "transliteration": "Al-Mutakabbir",
+    "meaning_ar": "المتعالي عن صفات الخلق",
+    "meaning_en": "The Supreme who is above the attributes of creation"
+  },
+  {
+    "id": 12,
+    "name": "الخالق",
+    "transliteration": "Al-Khaliq",
+    "meaning_ar": "الذي أوجد الأشياء من العدم",
+    "meaning_en": "The Creator who brings things into existence from nothing"
+  },
+  {
+    "id": 13,
+    "name": "البارئ",
+    "transliteration": "Al-Bari",
+    "meaning_ar": "الذي خلق الخلق بريئاً من التفاوت",
+    "meaning_en": "The Maker who creates without any inconsistency"
+  },
+  {
+    "id": 14,
+    "name": "المصور",
+    "transliteration": "Al-Musawwir",
+    "meaning_ar": "الذي صور جميع الموجودات ورتبها",
+    "meaning_en": "The Fashioner who shapes all beings and arranges them"
+  },
+  {
+    "id": 15,
+    "name": "الغفار",
+    "transliteration": "Al-Ghaffar",
+    "meaning_ar": "الذي يغفر الذنوب مهما كثرت",
+    "meaning_en": "The Oft-Forgiving who forgives sins no matter how many"
+  },
+  {
+    "id": 16,
+    "name": "القهار",
+    "transliteration": "Al-Qahhar",
+    "meaning_ar": "الغالب جميع خلقه",
+    "meaning_en": "The Dominant who overpowers all His creation"
+  },
+  {
+    "id": 17,
+    "name": "الوهاب",
+    "transliteration": "Al-Wahhab",
+    "meaning_ar": "الذي يهب بلا عوض",
+    "meaning_en": "The Bestower who gives without compensation"
+  },
+  {
+    "id": 18,
+    "name": "الرزاق",
+    "transliteration": "Ar-Razzaq",
+    "meaning_ar": "الذي يرزق جميع خلقه",
+    "meaning_en": "The Provider who sustains all His creation"
+  },
+  {
+    "id": 19,
+    "name": "الفتاح",
+    "transliteration": "Al-Fattah",
+    "meaning_ar": "الذي يفتح أبواب الرحمة والرزق",
+    "meaning_en": "The Opener who opens the doors of mercy and sustenance"
+  },
+  {
+    "id": 20,
+    "name": "العليم",
+    "transliteration": "Al-Aleem",
+    "meaning_ar": "الذي يعلم كل شيء",
+    "meaning_en": "The All-Knowing who knows everything"
+  }
+]

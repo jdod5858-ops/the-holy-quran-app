@@ -1,5 +1,5 @@
-import 'package:al_quran/ui/animations/bottom_animation.dart';
-import 'package:al_quran/static/assets.dart';
+import 'package:hasanati/ui/animations/bottom_animation.dart';
+import 'package:hasanati/static/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

@@ -1,4 +1,4 @@
-import 'package:al_quran/configs/typography/app_typography.dart';
+import 'package:hasanati/configs/typography/app_typography.dart';
 import 'package:flutter/material.dart';
 
 class AppName extends StatelessWidget {
