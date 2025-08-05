@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name_ar": "مكة المكرمة",
+    "name_en": "Makkah",
+    "country_ar": "السعودية",
+    "country_en": "Saudi Arabia",
+    "latitude": 21.3891,
+    "longitude": 39.8579,
+    "timezone": "Asia/Riyadh"
+  },
+  {
+    "id": 2,
+    "name_ar": "المدينة المنورة",
+    "name_en": "Madinah",
+    "country_ar": "السعودية",
+    "country_en": "Saudi Arabia",
+    "latitude": 24.5247,
+    "longitude": 39.5692,
+    "timezone": "Asia/Riyadh"
+  },
+  {
+    "id": 3,
+    "name_ar": "الرياض",
+    "name_en": "Riyadh",
+    "country_ar": "السعودية",
+    "country_en": "Saudi Arabia",
+    "latitude": 24.7136,
+    "longitude": 46.6753,
+    "timezone": "Asia/Riyadh"
+  },
+  {
+    "id": 4,
+    "name_ar": "جدة",
+    "name_en": "Jeddah",
+    "country_ar": "السعودية",
+    "country_en": "Saudi Arabia",
+    "latitude": 21.4858,
+    "longitude": 39.1925,
+    "timezone": "Asia/Riyadh"
+  },
+  {
+    "id": 5,
+    "name_ar": "القاهرة",
+    "name_en": "Cairo",
+    "country_ar": "مصر",
+    "country_en": "Egypt",
+    "latitude": 30.0444,
+    "longitude": 31.2357,
+    "timezone": "Africa/Cairo"
+  },
+  {
+    "id": 6,
+    "name_ar": "الإسكندرية",
+    "name_en": "Alexandria",
+    "country_ar": "مصر",
+    "country_en": "Egypt",
+    "latitude": 31.2001,
+    "longitude": 29.9187,
+    "timezone": "Africa/Cairo"
+  },
+  {
+    "id": 7,
+    "name_ar": "دبي",
+    "name_en": "Dubai",
+    "country_ar": "الإمارات",
+    "country_en": "UAE",
+    "latitude": 25.2048,
+    "longitude": 55.2708,
+    "timezone": "Asia/Dubai"
+  },
+  {
+    "id": 8,
+    "name_ar": "أبو ظبي",
+    "name_en": "Abu Dhabi",
+    "country_ar": "الإمارات",
+    "country_en": "UAE",
+    "latitude": 24.2992,
+    "longitude": 54.6972,
+    "timezone": "Asia/Dubai"
+  },
+  {
+    "id": 9,
+    "name_ar": "الكويت",
+    "name_en": "Kuwait City",
+    "country_ar": "الكويت",
+    "country_en": "Kuwait",
+    "latitude": 29.3117,
+    "longitude": 47.4818,
+    "timezone": "Asia/Kuwait"
+  },
+  {
+    "id": 10,
+    "name_ar": "الدوحة",
+    "name_en": "Doha",
+    "country_ar": "قطر",
+    "country_en": "Qatar",
+    "latitude": 25.2854,
+    "longitude": 51.5310,
+    "timezone": "Asia/Qatar"
+  },
+  {
+    "id": 11,
+    "name_ar": "المنامة",
+    "name_en": "Manama",
+    "country_ar": "البحرين",
+    "country_en": "Bahrain",
+    "latitude": 26.0667,
+    "longitude": 50.5577,
+    "timezone": "Asia/Bahrain"
+  },
+  {
+    "id": 12,
+    "name_ar": "مسقط",
+    "name_en": "Muscat",
+    "country_ar": "عمان",
+    "country_en": "Oman",
+    "latitude": 23.5859,
+    "longitude": 58.4059,
+    "timezone": "Asia/Muscat"
+  },
+  {
+    "id": 13,
+    "name_ar": "عمان",
+    "name_en": "Amman",
+    "country_ar": "الأردن",
+    "country_en": "Jordan",
+    "latitude": 31.9454,
+    "longitude": 35.9284,
+    "timezone": "Asia/Amman"
+  },
+  {
+    "id": 14,
+    "name_ar": "بيروت",
+    "name_en": "Beirut",
+    "country_ar": "لبنان",
+    "country_en": "Lebanon",
+    "latitude": 33.8938,
+    "longitude": 35.5018,
+    "timezone": "Asia/Beirut"
+  },
+  {
+    "id": 15,
+    "name_ar": "دمشق",
+    "name_en": "Damascus",
+    "country_ar": "سوريا",
+    "country_en": "Syria",
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "timezone": "Asia/Damascus"
+  },
+  {
+    "id": 16,
+    "name_ar": "بغداد",
+    "name_en": "Baghdad",
+    "country_ar": "العراق",
+    "country_en": "Iraq",
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "timezone": "Asia/Baghdad"
+  },
+  {
+    "id": 17,
+    "name_ar": "طهران",
+    "name_en": "Tehran",
+    "country_ar": "إيران",
+    "country_en": "Iran",
+    "latitude": 35.6892,
+    "longitude": 51.3890,
+    "timezone": "Asia/Tehran"
+  },
+  {
+    "id": 18,
+    "name_ar": "إسطنبول",
+    "name_en": "Istanbul",
+    "country_ar": "تركيا",
+    "country_en": "Turkey",
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "timezone": "Europe/Istanbul"
+  },
+  {
+    "id": 19,
+    "name_ar": "أنقرة",
+    "name_en": "Ankara",
+    "country_ar": "تركيا",
+    "country_en": "Turkey",
+    "latitude": 39.9334,
+    "longitude": 32.8597,
+    "timezone": "Europe/Istanbul"
+  },
+  {
+    "id": 20,
+    "name_ar": "الدار البيضاء",
+    "name_en": "Casablanca",
+    "country_ar": "المغرب",
+    "country_en": "Morocco",
+    "latitude": 33.5731,
+    "longitude": -7.5898,
+    "timezone": "Africa/Casablanca"
+  },
+  {
+    "id": 21,
+    "name_ar": "الرباط",
+    "name_en": "Rabat",
+    "country_ar": "المغرب",
+    "country_en": "Morocco",
+    "latitude": 34.0209,
+    "longitude": -6.8416,
+    "timezone": "Africa/Casablanca"
+  },
+  {
+    "id": 22,
+    "name_ar": "الجزائر",
+    "name_en": "Algiers",
+    "country_ar": "الجزائر",
+    "country_en": "Algeria",
+    "latitude": 36.7538,
+    "longitude": 3.0588,
+    "timezone": "Africa/Algiers"
+  },
+  {
+    "id": 23,
+    "name_ar": "تونس",
+    "name_en": "Tunis",
+    "country_ar": "تونس",
+    "country_en": "Tunisia",
+    "latitude": 36.8065,
+    "longitude": 10.1815,
+    "timezone": "Africa/Tunis"
+  },
+  {
+    "id": 24,
+    "name_ar": "طرابلس",
+    "name_en": "Tripoli",
+    "country_ar": "ليبيا",
+    "country_en": "Libya",
+    "latitude": 32.8872,
+    "longitude": 13.1913,
+    "timezone": "Africa/Tripoli"
+  },
+  {
+    "id": 25,
+    "name_ar": "الخرطوم",
+    "name_en": "Khartoum",
+    "country_ar": "السودان",
+    "country_en": "Sudan",
+    "latitude": 15.5007,
+    "longitude": 32.5599,
+    "timezone": "Africa/Khartoum"
+  },
+  {
+    "id": 26,
+    "name_ar": "جاكرتا",
+    "name_en": "Jakarta",
+    "country_ar": "إندونيسيا",
+    "country_en": "Indonesia",
+    "latitude": -6.2088,
+    "longitude": 106.8456,
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "id": 27,
+    "name_ar": "كوالالمبور",
+    "name_en": "Kuala Lumpur",
+    "country_ar": "ماليزيا",
+    "country_en": "Malaysia",
+    "latitude": 3.1390,
+    "longitude": 101.6869,
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  {
+    "id": 28,
+    "name_ar": "إسلام آباد",
+    "name_en": "Islamabad",
+    "country_ar": "باكستان",
+    "country_en": "Pakistan",
+    "latitude": 33.7294,
+    "longitude": 73.0931,
+    "timezone": "Asia/Karachi"
+  },
+  {
+    "id": 29,
+    "name_ar": "كراتشي",
+    "name_en": "Karachi",
+    "country_ar": "باكستان",
+    "country_en": "Pakistan",
+    "latitude": 24.8607,
+    "longitude": 67.0011,
+    "timezone": "Asia/Karachi"
+  },
+  {
+    "id": 30,
+    "name_ar": "داكا",
+    "name_en": "Dhaka",
+    "country_ar": "بنغلاديش",
+    "country_en": "Bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
+    "timezone": "Asia/Dhaka"
+  }
+]

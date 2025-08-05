@@ -1,35 +1,97 @@
 import 'package:adhan/adhan.dart';
 import 'package:geolocator/geolocator.dart';
 import '../models/prayer_time.dart';
+import 'cities_service.dart';
 
 class PrayerTimesService {
   static Future<LocationData?> getCurrentLocation() async {
     try {
       bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
       if (!serviceEnabled) {
-        return null;
+        // Return default location (Makkah) if location service is disabled
+        return LocationData(
+          latitude: 21.3891,
+          longitude: 39.8579,
+          city: 'مكة المكرمة',
+          country: 'السعودية',
+        );
       }
 
       LocationPermission permission = await Geolocator.checkPermission();
       if (permission == LocationPermission.denied) {
         permission = await Geolocator.requestPermission();
         if (permission == LocationPermission.denied) {
-          return null;
+          // Return default location if permission denied
+          return LocationData(
+            latitude: 21.3891,
+            longitude: 39.8579,
+            city: 'مكة المكرمة',
+            country: 'السعودية',
+          );
         }
       }
 
       if (permission == LocationPermission.deniedForever) {
-        return null;
+        // Return default location if permission denied forever
+        return LocationData(
+          latitude: 21.3891,
+          longitude: 39.8579,
+          city: 'مكة المكرمة',
+          country: 'السعودية',
+        );
       }
 
       Position position = await Geolocator.getCurrentPosition();
       
+      // Try to find nearest city from our offline database
+      final nearestCity = await CitiesService.findNearestCity(
+        position.latitude, 
+        position.longitude
+      );
+      
       return LocationData(
         latitude: position.latitude,
         longitude: position.longitude,
-        city: 'Unknown',
-        country: 'Unknown',
+        city: nearestCity?.nameAr ?? 'الموقع الحالي',
+        country: nearestCity?.countryAr ?? '',
       );
+    } catch (e) {
+      // Return default location on any error
+      return LocationData(
+        latitude: 21.3891,
+        longitude: 39.8579,
+        city: 'مكة المكرمة',
+        country: 'السعودية',
+      );
+    }
+  }
+
+  static Future<LocationData?> getLocationByCity(String cityName) async {
+    try {
+      final cities = await CitiesService.searchCities(cityName, isArabic: true);
+      if (cities.isNotEmpty) {
+        final city = cities.first;
+        return LocationData(
+          latitude: city.latitude,
+          longitude: city.longitude,
+          city: city.nameAr,
+          country: city.countryAr,
+        );
+      }
+      
+      // Try English search
+      final citiesEn = await CitiesService.searchCities(cityName, isArabic: false);
+      if (citiesEn.isNotEmpty) {
+        final city = citiesEn.first;
+        return LocationData(
+          latitude: city.latitude,
+          longitude: city.longitude,
+          city: city.nameAr,
+          country: city.countryAr,
+        );
+      }
+      
+      return null;
     } catch (e) {
       return null;
     }
