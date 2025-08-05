@@ -12,14 +12,10 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
+// Keystore properties removed for open source build
 
 android {
-    namespace = "com.hmz.al_quran"
+    namespace = "com.voxin.hasanati"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "25.1.8937393"
 
@@ -36,20 +32,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.hmz.al_quran"
+        applicationId = "com.voxin.hasanati"
         minSdk = 21
         targetSdk = 35
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-    }
-
-    signingConfigs {
-       release {
-           storeFile file(keystoreProperties['storeFile'])
-           storePassword keystoreProperties['storePassword']
-           keyAlias keystoreProperties['keyAlias']
-           keyPassword keystoreProperties['keyPassword']
-       }
     }
 
     buildTypes {
@@ -57,7 +44,9 @@ android {
             profile {
                 matchingFallbacks = ['debug', 'release']
             }
-            signingConfig signingConfigs.release
+            // Signing config removed for open source build
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
