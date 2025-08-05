@@ -101,7 +101,6 @@ dev_dependencies:
   # tests
   mocktail: 1.0.3
   bloc_test: 10.0.0
-  hive_test: 1.0.1
 
   # launcher icons
   flutter_launcher_icons: 0.14.3

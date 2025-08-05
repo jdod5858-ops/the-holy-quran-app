@@ -27,9 +27,6 @@ dev_dependencies:
   lints: ^5.0.0
   test: 1.25.15
 
-  # hive
-  hive_test: 1.0.1
-
   # misc
   freezed: 2.5.7
   json_serializable: 6.9.0

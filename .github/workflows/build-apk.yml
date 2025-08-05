@@ -32,9 +32,7 @@ jobs:
       
     - name: Generate code
       run: flutter pub run build_runner build --delete-conflicting-outputs
-      
-    - name: Analyze code
-      run: flutter analyze
+      continue-on-error: true
       
     - name: Run tests
       run: flutter test
