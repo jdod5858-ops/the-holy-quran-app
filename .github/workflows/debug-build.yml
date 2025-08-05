@@ -56,10 +56,13 @@ jobs:
         cat android/app/build.gradle
         cat android/gradle.properties
         
-    - name: Build APK with verbose output
+    - name: Build Debug APK
       run: |
         flutter build apk --debug --verbose
-      continue-on-error: true
+        
+    - name: Build Release APK
+      run: |
+        flutter build apk --release --verbose
       
     - name: Check build output
       run: |
@@ -68,11 +71,18 @@ jobs:
         ls -la build/app/ || echo "No build/app directory"
         ls -la build/app/outputs/ || echo "No build/app/outputs directory"
         ls -la build/app/outputs/flutter-apk/ || echo "No APK output directory"
+        find build/ -name "*.apk" -type f || echo "No APK files found"
         
-    - name: Upload any APK found
+    - name: Upload Debug APK
       uses: actions/upload-artifact@v4
-      if: always()
       with:
-        name: debug-apk
-        path: build/app/outputs/flutter-apk/*.apk
-        if-no-files-found: ignore
+        name: hasanati-debug-apk
+        path: build/app/outputs/flutter-apk/app-debug.apk
+        if-no-files-found: warn
+        
+    - name: Upload Release APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: hasanati-release-apk
+        path: build/app/outputs/flutter-apk/app-release.apk
+        if-no-files-found: warn
