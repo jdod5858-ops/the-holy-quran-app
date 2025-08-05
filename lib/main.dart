@@ -196,7 +196,7 @@ class _AzkarPageState extends State<AzkarPage> {
                         });
                       },
                       child: Text('تسبيح'),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                      style: ElevatedButton.styleFrom(primary: Colors.green),
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -205,7 +205,7 @@ class _AzkarPageState extends State<AzkarPage> {
                         });
                       },
                       child: Text('إعادة تعيين'),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                      style: ElevatedButton.styleFrom(primary: Colors.red),
                     ),
                   ],
                 ),
@@ -269,7 +269,7 @@ class QiblaPage extends StatelessWidget {
               // Implement compass functionality
             },
             child: Text('تحديد القبلة'),
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+            style: ElevatedButton.styleFrom(primary: Colors.green),
           ),
         ],
       ),
