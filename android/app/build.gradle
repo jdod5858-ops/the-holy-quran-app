@@ -4,16 +4,6 @@ plugins {
     id "dev.flutter.flutter-gradle-plugin"
 }
 
-def localProperties = new Properties()
-def localPropertiesFile = rootProject.file('local.properties')
-if (localPropertiesFile.exists()) {
-    localPropertiesFile.withReader('UTF-8') { reader ->
-        localProperties.load(reader)
-    }
-}
-
-// Keystore properties removed for open source build
-
 android {
     namespace = "com.voxin.hasanati"
     compileSdk = 34
@@ -24,7 +14,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
+        jvmTarget = '1.8'
     }
 
     defaultConfig {
@@ -37,23 +27,14 @@ android {
 
     buildTypes {
         release {
-            // Signing config removed for open source build
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
             debuggable true
-        }
-        profile {
-            matchingFallbacks = ['debug', 'release']
         }
     }
 }
 
 flutter {
     source '../..'
-}
-
-dependencies {
-    // Dependencies will be added as needed
 }
